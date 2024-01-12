@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+html,
+body {
+    height: 100%;
+    max-width: 1920px;
+    width: 100%;
+
+}
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+}
+
+
+/* this nav section */
+
+.navber {
+    padding-top: 2.6vw;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.logo {
+    font-size: 2.4vw;
+    font-weight: 700;
+    cursor: pointer;
+    color: #131313;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+}
+
+.nav-list li {
+    list-style-type: none;
+    font-size: 1vw;
+    cursor: pointer;
+    color: #424242;
+}
+
+/* this is header-title section */
+
+.header-title {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 6vw;
+}
+
+.header-title h1 {
+    font-size: 3.4vw;
+    text-align: center;
+    font-weight: 700;
+    color: #131313;
+}
+
+.header-title p {
+    color: var(--Dark-03, #727272);
+    text-align: center;
+    font-size: .83vw;
+    font-weight: 400;
+    margin-top: 1.5vw;
+    line-height: 1.3vw;
+}
+
+.header-title button {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1vw;
+    margin-top: 1.7vw;
+    font-weight: 600;
+    margin: 1.7vw auto;
+    padding: 1.1vw 1.3vw;
+    border-radius: 8px;
+    background: #FF900E;
+    outline: none;
+    border: none;
+}
+
+/* this is header-img section */
+
+.header-img {
+    width: 75%;
+    margin: 1vw auto;
+    padding-bottom: 2vw;
+
+}
+
+.header-img img {
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+
+    /* this is nav section */
+    .navber {
+        padding-top: 2.6vw;
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .logo {
+        font-size: 7vw;
+        margin-bottom: 5px;
+    }
+
+    .nav-list {
+        background-color: #FF900E;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .nav-list li {
+        padding: 7px 0px;
+        color: #FFF;
+        font-size: 3.9vw;
+
+    }
+
+    /* this is header-title section */
+    .header-title {
+        width: 90%;
+    }
+
+    .header-title h1 {
+        font-size: 7vw;
+    }
+
+    .header-title p {
+        font-size: 4vw;
+        margin-top: 3vw;
+        line-height: 6vw;
+    }
+
+    .header-title button {
+
+        font-size: 5vw;
+        margin-top: 1.7vw;
+        margin: 4vw auto;
+        padding: 2vw 4vw;
+    }
+
+    /* this is header-img section */
+
+    .header-img {
+        width: 90%;
+        margin: 2vw auto;
+    }
+}
